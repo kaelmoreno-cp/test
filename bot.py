@@ -7,8 +7,8 @@ import re
 
 from google.cloud import firestore
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/username/key.json"
-os.environ['GCLOUD_PROJECT'] = "XXX"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "stock.json"
+os.environ['GCLOUD_PROJECT'] = "stock-checker-d04b9"
 
 description = '''Bot'''
 
@@ -604,4 +604,4 @@ async def fc(ctx):
 
     _log("Added FC " + fc_name + "(" + fc + ") for " + str(ctx.author))
 
-bot.run("XXX")
+bot.run("OTE1NjAyMDc3NTc5ODkwNjg4.Yad-4g.l_HjdpldjbRZeeEhkzKCBVE4gFY")
